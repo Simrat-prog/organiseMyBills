@@ -4,9 +4,9 @@ Here's a professional and well-structured **`README.md`** for your project **Bil
 
 ---
 
-# 🤖 BillBot — Your Personal Bill Organizer
+# 🤖 OrganiseMyBill — Your Personal Bill Organizer
 
-**BillBot** is a smart automation platform that extracts PDF bills from your email, identifies the bill type and date using intelligent parsing, and organizes them into structured folders — automatically!
+**OrganiseMyBill** is a smart automation platform that extracts PDF bills from your email, identifies the bill type and date using intelligent parsing, and organizes them into structured folders — automatically!
 
 No more digging through inboxes or scattered downloads — BillBot sorts your life, one bill at a time.
 
@@ -27,7 +27,7 @@ No more digging through inboxes or scattered downloads — BillBot sorts your li
 ## 📦 Folder Structure
 
 `
-billbot/
+OrganiseMyBill/
 ├── fetch\_emails.py          # Download PDFs from email
 ├── parse\_pdf.py             # Extract text or OCR
 ├── classify\_bill.py         # Identify type and date
@@ -61,7 +61,7 @@ billbot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/billbot.git
+git clone https://github.com/Simrat-prog/OrganiseMyBill.git
 cd billbot
 ````
 
@@ -119,21 +119,7 @@ Access the dashboard at `http://127.0.0.1:5000/`
 
 ---
 
-## 🐳 Docker Support
 
-Build the image:
-
-```bash
-docker build -t billbot .
-```
-
-Run the container:
-
-```bash
-docker run -v $(pwd)/bills:/app/bills billbot
-```
-
----
 UML Design:
 ![image](https://github.com/user-attachments/assets/e480308b-8f49-4264-a580-a964688f17a4)
 

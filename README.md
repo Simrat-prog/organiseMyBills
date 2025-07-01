@@ -103,7 +103,7 @@ This will:
 
 ---
 
-## 🌐 Web Dashboard (Optional)
+## 🌐 Web Dashboard
 
 ```bash
 export FLASK_APP=app.py

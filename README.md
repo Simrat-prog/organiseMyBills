@@ -1,8 +1,3 @@
-# BillBot
-A smart assistant automating your bills
-Here's a professional and well-structured **`README.md`** for your project **BillBot**:
-
----
 
 # 🤖 OrganiseMyBill — Your Personal Bill Organizer
 
